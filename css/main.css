@@ -1,0 +1,731 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .nav-link {
+    margin-right: 10px;
+
+
+}
+
+
+.btn {
+
+
+
+    padding: 10px 14px;
+}
+
+.logo h1 {
+
+    font-size: 30px;
+
+}
+
+.logo h1 .sss {
+
+    width: 5%;
+    color: red;
+
+}
+
+.bannar .bannar-text .text-head {
+    flex-direction: row;
+}
+
+.bannar .row .bannar-text .text-head {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannar .row .bannar-text .text-head .h2 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bannar .row .bannar-text .text-head span h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #FF5363;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 14px;
+
+
+}
+
+.bannar .row .bannar-text .text-head span h2 {
+
+
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #50658e;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.bannar .row .bannar-text .para {
+    text-align: left;
+
+
+}
+.style-c {
+    color: #3d4b69;
+    line-height: 1.5em;
+    text-align: left;
+}
+.style-p {
+    color: #3d4b69;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+header .bannar .bannar-text .text-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 30px 0 50px;
+
+
+}
+
+header .bannar .bannar-text .text-btn .style-a {
+
+    text-align: center;
+
+}
+
+header .bannar .bannar-text .text-btn svg {
+    width: 10%;
+}
+
+.btn {
+    font-size: 18px;
+    color: white;
+    background-color: #2a81ea;
+    padding: 10px 14px;
+    text-transform: capitalize;
+   
+
+}
+
+
+
+header .bannar .bannar-text .bannar-text-number {
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header .bannar .bannar-text .bannar-text-number .text-num {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    color: #7d92bb;
+    margin: 0;
+}
+
+header .bannar .bannar-text .bannar-text-number .num {
+    text-align: left;
+    color: #465675;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+header .bannar .bannar-text .italic {
+    font-size: 12px;
+    color: #7d92bb;
+}
+
+
+
+
+.bannar .row .bannar-img img {
+    width: 100%;
+
+
+}
+
+
+.style-h3 {
+    color: #2a81ea;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.style-h2 {
+    color: #50658e;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.about .about-text .para1 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.about .about-text .para2 {
+    font-size: 19px;
+    line-height: 1.7em;
+}
+
+.style-p {
+    color: #3d4b69;
+    line-height: 1.5em;
+}
+g:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+
+
+ /* .mannar .about-links ul {
+
+list-style: none;
+ padding: 0;
+    margin: 0;
+    list-style: none;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    border: 1px solid #e7e8ff;
+
+}
+.mannar .about-links ul a {
+    text-decoration: none;
+    color: #2a81ea;
+    border-bottom: 1px solid #e7e8ff;
+} */
+
+.mannnar   .about-links  ul  {
+    margin-top: 10px;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    border: 1px solid #e7e8ff;
+    margin-bottom: 1rem;
+    list-style: none;}
+ .mannnar   .about-links  ul li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        color: #465675;
+        font-size: 15px;
+        padding: 20px 30px;
+        font-weight: bold;
+        border-bottom: 1px solid #e7e8ff;
+    }
+
+    .mannnar   .about-links  ul li  span{margin-right: 10px;}
+
+
+.transtion{
+
+    padding: 100px 0;
+    background-color: #F7F9FE;
+}
+.transtion .text-transtion .card {
+
+padding: 20px;
+
+}
+.transtion .text-transtion .card img{
+    border-bottom: 6px solid #9cc2f7;
+
+
+
+}
+.transtion .text-transtion .card h3{
+    color: #2a81ea;
+    font-size: 18px;
+    margin-bottom: 7px;
+
+}
+
+.text-transtion .transmission-btn{
+
+text-align: center;
+margin-top: 50px;
+
+}
+.text-transtion .transmission-btn a svg {
+    margin-right: 15px;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+.symptoms  .symb-card h3{
+
+color: blue;
+
+
+}
+.symptoms  .symb-card span{
+
+    font-weight: bold;
+}
+
+.symptoms  .symb-card .symptoms-box-img{
+
+
+    text-align: right;
+}
+.symptoms  .symb-card .symptoms-box-img img{
+
+width: 20%;
+height: 20%;
+border-radius: 100%;
+
+
+}
+
+.symptoms  .allll{
+
+margin-top: 105px;
+
+
+  display: flex;
+justify-content: center;
+
+text-align: center;
+}
+
+.symptoms  .text{
+    text-align: center;
+}
+
+.symptoms   .text svg{
+
+
+    display: inline;
+    color: #2a81ea;
+    
+} 
+vg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+
+.svg-inline--fa.fa-w-18 {
+    width: 1.125em;
+}
+
+.prevntation  .symb-card .symptoms-box-img img{
+
+    width: 40%;
+    height: 40%;
+    border-radius: 100%;
+}
+
+
+.prevntation  .symb-card .symptoms-box-img{
+
+    text-align: center;
+    
+}
+.prevntation  .symb-card .symptoms-box-text{
+    text-align: center;
+}
+.prevntation .symb-card   .symptoms-box-text  h3{
+
+font-size: 20px;
+
+
+}
+.prevntation .prevention-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+
+.prevntation .prevention-button .style-a  {
+    text-align: center;
+    margin-top: 10px;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+
+.prevntaion-2 ul{
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.prevntaion-2 ul li{
+    display: flex;
+}
+.prevntaion-2 ul li .icon svg{
+margin-right: 10px;
+    color: #3dca93;
+
+
+
+}
+
+.prevntaion-2 .col-md-4{
+
+text-align: center;
+    
+}
+.prevntaion-2 .col-md-4 img{
+width: 100%;
+}
+
+.prevntaion-3  .follow-text{
+
+text-align: center;
+
+}
+.prevntaion-3  .follow-text a{
+margin-top: 10px;
+
+
+
+}
+.prevntaion-3 .row .wash-hand{
+
+
+
+    margin:20px;
+}
+.prevntaion-3 .row .wash-hand img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.prevntaion-3 .row .wash-hand p{
+
+
+    text-align: center;
+}
+.prevntaion-4{
+
+    background-color: blue;
+}
+.prevntaion-4  .style-c{
+color: white;
+
+
+}
+
+.prevntaion-4  .style-h3{
+    color:red;
+
+    margin-top: 20px;
+}
+.prevntaion-4  .style-h2{
+    color: white;
+
+    font-size: 25px;
+}
+.prevntaion-4 .row .treatment-self ul{
+    list-style: none;
+}
+
+.prevntaion-4 .row .treatment-self ul li{
+display: flex;
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+.prevntaion-4 .row .treatment-self ul li svg{
+
+color: white;
+margin-right: 10px;
+
+
+}
+
+
+.prevntaion-4 .row .treatment-self{
+
+
+    background-color: #1b47a1;
+    margin: auto;
+    padding: 50px;
+    color: white;
+    -webkit-border-radius: 7px;
+} 
+.prevntaion-5 .row .icon svg{
+
+    color: red;
+   
+}
+.prevntaion-5 .row .ico svg{
+
+    color: green;
+   
+}
+.prevntaion-5 .row .text  p{
+    color: #2a81ea;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 20px;
+
+
+    
+}
+.prevntaion-5 .row  .box .img img{
+    -webkit-border-radius: 50%;
+   
+    border: 2px solid #2a81ea;
+    background-color: #fff;
+    width: 30%;
+}
+
+.prevntaion-5 .row .col-md-4 img{
+    width: 100%;
+}
+.prevntaion-6 .row  ul li{
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    font-size: 14px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    
+    border: 2px solid #e7e8ff;
+    border-radius: 10px;
+  
+}
+
+.prevntaion-6 .row   ul li:hover{
+
+color: blue;
+
+
+
+}
+.prevntaion-6 .row   ul li p{
+    padding: 0;
+    margin: 0;
+
+
+   
+
+}
+.prevntaion-6 .row   ul li svg{
+
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+ .collapsible{
+    
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+     
+
+
+
+
+ }
+
+
+
+
+ 
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  } 
+  
+  
+
+  .prevntaion-7   .row .card .image img{
+    border-radius: 20px ;
+    width: 100%;
+  }
+  .prevntaion-7   .row .card .text{
+      text-align: center;
+  }
+
+  footer{
+
+    background-color:silver;
+  }
+  footer .container .logo svg{
+
+    color: red;
+  }
+  footer .container .logo span{
+
+    color: #4B6691;
+    
+  }
+
+  footer .container .footer-box  .svggg svg{
+
+
+    width: 10%;
+
+    color: black;
+  }
+  .ffff ul li{
+    list-style: none;
+    padding: 0;
+}
+
+ .ffff ul li {
+    margin-bottom: 20px;
+}
+@media(max-width:600px) {
+    .bannar .row .bannar-text .text-head {
+
+
+        display: inline;
+    }
+
+    .bannar .row .bannar-text .para {
+        text-align: center;
+
+
+    }
+
+    .bannar .row .bannar-text .text-head .h2 {
+
+        text-align: center;
+
+    }
+
+    .bannar .row .bannar-text .text-head span h3 {
+
+        text-align: center;
+
+    }
+
+    .bannar .row .bannar-text .text-head span h2 {
+        text-align: center;
+
+    }
+
+    header .bannar .bannar-text .text-btn {
+        display: inline;
+
+
+    }
+
+   
+    .btn {
+
+        font-size: 18px;
+        color: white;
+        background-color: #2a81ea;
+        padding: 5px 7px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+
+    }
+
+    header .bannar .bannar-text .text-btn .style-a {
+        margin-left: 105px;
+        margin-top: 20px;
+    }
+
+    header .bannar .bannar-text .bannar-text-number {
+
+        display: inline;
+
+    }
+
+    header .bannar .bannar-text .bannar-text-number .text-num {
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+    header .bannar .bannar-text .bannar-text-number .num {
+        text-align: center;
+    }
+
+
+
+    .style-h3 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .style-h2 {
+        text-align: center;
+    }
+
+    .about .about-text .para1 {
+        text-align: center;
+    }
+
+    .about .about-text .para2 {
+        text-align: center;
+    }
+
+    .style-p {
+        text-align: center;
+    }
+
+    .mannnar   .about-links  ul li {
+        text-align: left;
+    }
+
+    .mannnar   .about-links  ul li  span{margin-right: 5px;}
+
+    .symptoms  .allll{display: inline;}
+
+
+    .prevntaion-5 .row .box{
+        text-align: center;
+    }
+
+    .prevntaion-6 .row   ul{
+text-align: center;
+
+
+
+    }
+
+}
