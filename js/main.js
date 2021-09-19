@@ -1,3 +1,8 @@
+
+ new WOW().init();
+
+
+
 let clickOnItem= document.getElementById('clickOnItem');
 let allTasks =document.getElementById('allTasks');
 let clickOnItem1= document.getElementById('clickOnItem1');
@@ -347,3 +352,21 @@ let showTasks5 =()=>{
 
 
 clickOnItem5.addEventListener('click',showTasks5);
+
+$(window).scroll(function(){
+x =$(window).scrollTop();
+if(x<1620){
+
+
+  $('.goto').css("opacity","0");
+}
+ else{
+  $('.goto').css("display","block");
+  $('.goto').css("opacity","1");
+ }
+
+  console.log(x);
+
+})
+
+ 
